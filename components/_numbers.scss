@@ -1,0 +1,48 @@
+@use "../abstracts/variables";
+
+.number-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.number-item__numbers {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.number-container {
+  margin-bottom: 100px;
+}
+
+.number-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 178px;
+  margin: 0 auto;
+}
+
+.number-item__img {
+  width: 35px;
+}
+
+.number-item__p {
+  margin: 0;
+  color: rgb(0, 37, 46, 0.5);
+}
+
+.number-item__p--breakword {
+  inline-size: min-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .number-box {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .number-item__p--breakword {
+    inline-size: auto;
+  }
+}

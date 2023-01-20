@@ -1,0 +1,16 @@
+@use "../abstracts/variables";
+
+.screen-mockup {
+    padding: 0 35px;
+}
+.screen-mockup-image__img {
+    width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+    .screen-mockup {
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+}
+

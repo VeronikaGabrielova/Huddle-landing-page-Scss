@@ -1,0 +1,24 @@
+@use "../abstracts/variables";
+
+.input-wrapper {
+  text-align: right;
+}
+.input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+  }
+  .input {
+    width: 350px;
+  }
+}

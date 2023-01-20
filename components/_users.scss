@@ -1,0 +1,24 @@
+@use "../abstracts/variables";
+
+.users {
+    background-color: variables.$paleblue;
+    padding: 50px 35px;
+}
+
+.users__img {
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+@media screen and(min-width: 1440px){
+    .users{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        &__img{
+            width: 500px;
+        }
+    }
+
+}

@@ -1,0 +1,19 @@
+@use "../abstracts/variables";
+
+.footer-bg {
+  background-color: variables.$darkblue;
+  color: variables.$paleblue;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-bg {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px 100px 50px 100px;
+  }
+  .huddle {
+    width: 600px;
+  }
+}

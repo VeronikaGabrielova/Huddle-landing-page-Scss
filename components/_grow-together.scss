@@ -1,0 +1,47 @@
+@use "../abstracts/variables";
+.section-bg {
+  display: block;
+  width: 100%;
+}
+
+.grow-bg {
+  background-color: variables.$paleblue;
+  padding: 100px 35px 50px 35px;
+}
+
+.grow-box__img {
+  display: block;
+  width: 100%;
+  padding: 0 0 50px 0;
+}
+
+.text {
+  text-align: center;
+}
+.text__heading {
+  font-family: variables.$headings;
+  font-weight: 700;
+}
+
+.text__p {
+  margin: 0;
+}
+@media screen and (min-width: 1440px){
+  .grow-bg {
+    padding: 100px 100px 50px 100px;
+  }
+  .grow-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 100px;
+  }
+  .text {
+    text-align: left;
+    max-width: 527px;
+  }
+  .grow-box__img {
+    width: 500px;
+  }
+}

@@ -1,0 +1,24 @@
+@use "../abstracts/variables";
+
+.flow {
+    padding: 100px 35px;
+}
+
+.flow__img {
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1440px){
+    .flow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+&__img {
+    width: 500px;
+}
+    }
+    
+}

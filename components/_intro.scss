@@ -1,0 +1,22 @@
+@use "../abstracts/variables";
+
+.intro {
+  padding: 80px 35px;
+  text-align: center;
+  &__heading {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .intro {
+    margin: 0 auto;
+    &__heading {
+      font-size: 40px;
+    }
+    &__p {
+      margin: 0 auto;
+      max-width: 500px;
+    }
+  }
+}

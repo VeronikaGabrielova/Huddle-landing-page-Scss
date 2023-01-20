@@ -1,0 +1,25 @@
+@use "../abstracts/variables";
+
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body { 
+    margin: 0 auto;
+    padding-top: 40px;
+    max-width: 425px;
+    font-family: variables.$main-font;
+    color: variables.$darkblue; 
+}
+
+@media screen and(min-width: 1440px){
+    body {
+        max-width: 1440px;
+        padding-top: 70px;
+    }
+   
+}

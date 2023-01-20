@@ -1,0 +1,13 @@
+@use "../abstracts/variables";
+
+.community {
+    padding: 100px 35px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+@media screen and (min-width: 1440px) {
+   .community__header {
+    font-size: 35px;
+   }
+
+}
